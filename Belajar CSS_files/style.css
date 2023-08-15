@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  background-color: skyblue;
+  padding-left: 40px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.active {
+  background-color: dodgerblue;
+}
+.right {
+  float: right;
+  margin-right: 40px;
+  text-align: center;
+}
+header {
+  background-color: lightblue;
+  padding: 40px;
+  text-align: center;
+}
+.myname {
+  font-family: "Arial Narrow Bold";
+  color: darkslategray;
+}
+.photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
